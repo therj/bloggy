@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% comment %} templates/home.html {% endcomment %}
+{% block content %}
+
+{% for post in object_list %}
+<div class="post-entry">
+<h2><a href="{% url 'blog:post_detail' post.pk  %}">{{ post.title }}</a></h2>
+<p>{{ post.body|truncatewords_html:28 }}</p>
+</div>
+{% endfor %}
+{% endblock content %}

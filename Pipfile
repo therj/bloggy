@@ -7,6 +7,8 @@ name = "pypi"
 django = "*"
 gunicorn = "*"
 whitenoise = "*"
+dj_database_url = "*"
+psycopg2-binary = "*"
 
 [dev-packages]
 autopep8 = "*"

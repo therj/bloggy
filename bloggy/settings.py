@@ -25,7 +25,7 @@ REGISTRATION_TEMPLATE_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = 'sdfdf0whkm9e9){$4xtafv&n8txgqy&&1u^89mt%nh!t#%e*r('
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
